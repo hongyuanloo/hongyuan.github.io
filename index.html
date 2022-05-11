@@ -2,10 +2,105 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>My test page</title>
+    <title>My HTML Learnings</title>
   </head>
   <body>
-    <h1>Header1:This is firefox icon images.</h1>
+    <!-- Header Elements-->
+    <h3><u>Header Elements</u></h3>
+    <p>There are 6 header elements, as below: </p>
+    <h1>H1:This is firefox icon images.</h1>
+    <h2>H2:This is firefox icon images.</h2>
+    <h3>H3:This is firefox icon images.</h3>
+    <h4>H4:This is firefox icon images.</h4>
+    <h5>H5:This is firefox icon images.</h5>
+    <h6>H6:This is firefox icon images.</h6>
+
+    <!-- Paragrah, Bold and Itaclics Elements-->
+    <h3><u>Paragrah, Bold and Itaclics Elements</u></h3>
+    <p>There are two elements that can mark something as Bold. 
+      While <Strong>Strong</Strong> element and <b>bold</b> element looks the
+      same, <Strong>Strong</Strong> element conveys importance, seriousness, urgency.  
+      e.g. Example for <Strong>Strong</Strong> element would be "<strong>Warning!</strong> Do not be late." 
+      e.g. Example for <b>bold</b> element would be "Assuming this is long paragragh and we just want to <b>
+        mark certain phrases</b> for visual attention" </p>
+
+    <p>Similiarly, there are two elements that can mark something as italic. 
+      While <em>em</em> element and <i>i</i> element looks the
+      same, <em>em</em> element conveys emphasis. In this example "My <em>favorite</em> 
+      character from <i>Sesame Street</i> is Grover.", <em>favorite</em> is marked with 
+      <em>em</em> element and while <i>Sesame Street</i> is marked with <i>i</i> element.</p>
+
+    <!-- List Elements-->
+    <h3><u>List Elements</u></h3>
+    <p>There are two types of list elements, ordered list "ol" and unordered list "ul".
+      <ul>
+        <li>flour</li>
+        <li>sugar</li>
+        <li>flour</li>
+        <li>salt</li>
+        <li>pepper</li>
+      </ul>
+      The above is example of ul, and below is example for ol. 
+      <ol>
+        <li>Heat up a pan.</li>
+        <li>pour some oils.</li>
+        <li>once you see some smoke, crack an egg.</li>
+        <li>serve when it is cooked.</li>
+      </ol>
+    </p> 
+    
+    <!-- Quotes Elements-->
+    <h3><u>Quotes Elements</u></h3>
+      For quotes, there are 2 types of elements. See Two example below.
+      <blockquote>
+        <p>
+          This is an example of using blockquote element. 
+          You can nest any elements inside blockquote element.
+          <cite>-Jeremy Keith</cite>
+        </p>
+      </blockquote>
+      <p>The other example is to use q element to <q>quote</q>. e.g. My mom says 
+        <q>dont stay up too late!</q>. q element is also an inline element just like 
+        strong, b, i, em elements.
+      </p>
+
+    <!-- Dates and Times Elements-->
+    <h3><u>Dates and Times Elements</u></h3>
+      <p>&lt;time&gt;  is use to display a specific period in time, and <b>datetime</b> attribute is used
+      to tell machine what is the datetime information.
+      e.g. The concert starts at <time datetime="2018-07-07T20:00:00">20:00</time>.</p>
+
+    <!-- Code, Pre and br Elements-->    
+    <h3><u>Code, Pre and br Elements</u></h3>
+    <p> &lt;code&gt; is use to display the syntax encode, e.g. <code>{color:green;}</code>.
+       In order to show the html syntax, we need to use HTML entities. e.g. &lt;code&gt; element
+       <br>Next, &lt;br&gt; is use to break sentence to next line.
+       <br>&lt;pre&gt; is use to keep all the space and line break in codes.e.g. 
+       <pre>
+        <code>
+        &lt;ul&gt;
+           &lt;li&gt;flour&lt;/li&gt;
+          &lt;li&gt;sugar&lt;/li&gt;
+          &lt;li&gt;salt&lt;/li&gt;
+        &lt;/ul&gt;
+        ul {
+           color: teal;       }
+        li {
+           list-style-type: square;}
+        </code>
+       </pre>
+    </p>
+
+    <!-- subscript, superscript and small text Elements-->
+    <h3><u>Subscript, Superscript and Small text Elements</u></h3>
+    <p>
+      Subscript example: H<sub >2</sub>O <br>
+      Superscript example: Something with footnote.<sup>3</sup><br>
+      Use &lt;small&gt; to convey little importance, like fine print at bottome of page.e.g. 
+      <small>© 2022 Microsoft</small>
+    </p>
+
+
     <img src="images/firefox-icon.png" alt="My test image">
   </body>
 </html>
